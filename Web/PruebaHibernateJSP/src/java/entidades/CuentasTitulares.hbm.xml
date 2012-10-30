@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20/01/2011 02:34:30 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="banco" name="entidades.CuentasTitulares" table="cuentasTitulares">
+    <composite-id class="entidades.CuentasTitularesId" name="id">
+      <key-property name="idTitulares" type="int">
+        <column name="id_titulares"/>
+      </key-property>
+      <key-property name="idCuentas" type="int">
+        <column name="id_cuentas"/>
+      </key-property>
+    </composite-id>
+  </class>
+</hibernate-mapping>

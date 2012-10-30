@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/PeliculasJSP">
+    <Resource name="jdbc/bdPeliculas" auth="Container"
+	type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://diinsoluciones.dontexist.com/bdPeliculas"
+	username="root" password="1164t"/>
+</Context>

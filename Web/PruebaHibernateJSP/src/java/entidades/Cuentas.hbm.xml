@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20/01/2011 02:34:30 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="banco" name="entidades.Cuentas" table="cuentas">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="saldo" type="java.lang.Double">
+      <column name="saldo" precision="22" scale="0"/>
+    </property>
+    <property name="fechaApertura" type="date">
+      <column length="10" name="fechaApertura"/>
+    </property>
+  </class>
+</hibernate-mapping>

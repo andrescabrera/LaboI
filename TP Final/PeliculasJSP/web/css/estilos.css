@@ -1,0 +1,200 @@
+/* Layout */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #221F14;
+}
+#contenedorPrincipal{
+    background-color: #067D4F;
+    min-height: 500px;
+}
+#contenedorPrincipal, #footer{
+    padding: 20px;
+    margin: 0 auto;
+    width: 900px;
+}
+#footer{
+    clear: both;
+    background: #EE9F4D;
+}
+/* Textos y Titulares */
+p, h1, h2, h3, h4, h5, h6, table caption{
+    color: #F8D2A2;
+    font-family: georgia;
+    margin: 8px;
+}
+span{
+    font-weight: bolder;
+}
+h1, table caption{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.2em;
+}
+#footer p a, h3{
+    font-size: 1.1em;
+}
+#footer p a{
+    font-weight: bold;
+    color: #067D4F;
+    text-decoration: none;
+}
+.dstc a{
+    color: #F8D2A2;
+    text-decoration: none;
+}
+#footer p, #footer span{
+    color: #067D4F;
+}
+#footer p span, h1, table caption{
+    font-weight: bold;
+}
+h1, table caption{
+    text-indent: 40px;
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: georgia;
+    margin: 50px 20px 20px 20px;
+}
+/* Cabecera */
+#marca{
+    line-height: 3em;
+    font-size: 1.3em;
+    font-family: verdana;
+    font-weight: bold;
+    color: #F8D2A2;
+    background: #221F14 url(../images/MainNavBg.gif) repeat-x;
+    text-align: center;
+}
+#listaDemo{
+    list-style: none;
+}
+/* Menu */
+#menu{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    list-style: none;
+    background: #D87D02 url(../images/mainNavBg.gif) repeat-x;
+    float: left;
+    width: 100%;
+}
+#menu li{
+    float: left;
+}
+#menu a{
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding: 0 1.05em;
+    line-height: 3.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    background: url(../images/divider.gif) repeat-y left top;
+    color: #F8D2A2;
+}
+#menu .first a{
+    background: none;
+}
+#menu a:hover{
+    color: #FFF;
+}
+a{
+    color: #FFF;
+    font-weight: normal;
+    font-family: 'Times New Roman', verdana;
+}
+
+/* Tablas */
+table{
+    color: #FFF;
+    border-collapse: collapse;
+    width: 55em;
+    border: 1px solid #666;
+}
+th, td{
+    padding: 0.1em 1em;
+}
+col{
+    border-right: 1px solid #ccc;
+}
+col#nombreCol{
+    border: none;
+}
+thead{
+    background: #ccc url(../images/mainNavBg.gif) repeat-x left center;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+}
+th{
+    font-weight: normal;
+    text-align: left;
+    color: #FFF;
+}
+#idHead{
+    font-weight: bold;
+}
+.par a, .par{
+    color: #066F4F;
+}
+.par{
+    color: #066F4F;
+    background-color: #cff5ff;
+}
+tr:hover, tr:hover a{
+    background-color: #221F14;
+    color: #CCC;
+}
+thead tr:hover{
+    background-color: transparent;
+    color: inherit;
+}
+
+/* Formularios */
+legend{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+label{
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+form fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #F8D2A2;
+    background: #066F4F;
+}
+input{
+    width: 200px;
+}
+#fecha label, #dia, #mes, #anio{
+    display: inline;
+}
+
+/* Mostrar Generos */
+#mostrarGeneros{
+    margin: 0 auto;
+    width: 750px;
+}
+.generos{
+    float: left;
+    width: 45%;
+    min-height: 140px;
+    border: 1px dotted #F8D2A2;
+    margin: 0 auto;
+    background: #221F14 repeat left;
+    padding: 10px;
+    background: #221F14 url(../images/rollo.png) top right;
+    background-repeat: no-repeat;
+}
+#paginador, #paginador a{
+    margin: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: verdana;
+}

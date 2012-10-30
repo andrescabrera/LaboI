@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>CarroCompra</servlet-name>
+        <servlet-class>general.CarroCompra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Ayuda</servlet-name>
+        <servlet-class>general.Ayuda</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Tienda</servlet-name>
+        <servlet-class>general.Tienda</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarroCompra</servlet-name>
+        <url-pattern>/CarroCompra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Ayuda</servlet-name>
+        <url-pattern>/Ayuda</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Tienda</servlet-name>
+        <url-pattern>/Tienda</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
